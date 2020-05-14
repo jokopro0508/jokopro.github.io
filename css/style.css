@@ -103,6 +103,13 @@ p{
 .colored-nav .navbar-divider{
 	display: none;
 }
+.bigger-logo{
+  float: left;
+  margin: -20px 0;
+}
+.bigger-logo img{
+  height: 90px;
+}
 .cta{
 	color: #fff;
 }
@@ -454,7 +461,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 }
 .bg-image-fit-50{
 	background-repeat: no-repeat !important;
-    background-position-x: 100%!important;
+    background-position-x: 75%!important;
     background-size: 50% 100% !important;
 }
 .btn-navbar{
@@ -641,6 +648,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	    background-image: -o-linear-gradient(305deg, rgb(232,88,137) 0%, rgb(232,98,123) 32%, rgb(232,108,108) 100%);
 	    background-image: linear-gradient(35deg, rgb(232,88,137) 0%, rgb(232,98,123) 32%, rgb(232,108,108) 100%);*/
       padding-top: 10px;
+      padding-left: 10px;
 	}
 	.navbar-divider{
 		display: none;
@@ -651,6 +659,11 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	.logo-colored img, .logo-white img{
 		max-height: 40px;
 	}
+}
+@media screen and (max-width: 991px) {
+  .bg-image-fit-50{
+    background: transparent!important;
+  }
 }
 @media screen and (min-width: 769px){
 	.image-right-slide-wraper{

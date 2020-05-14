@@ -22,7 +22,7 @@ $(document).ready(function() {
 	});
 
 	/* Navigation Menu*/
-	var offsettop = $('.navbar').offset().top;
+	/*var offsettop = $('.navbar').offset().top;
 	if (offsettop > 50) {
         $('.navbar').addClass('colored-nav');
         $("#scroll-top-div").fadeIn('500');
@@ -40,7 +40,7 @@ $(document).ready(function() {
 	        $('.navbar').removeClass('colored-nav');
 	        $("#scroll-top-div").fadeOut('500');
 	    }
-	});
+	});*/
 
 
 
