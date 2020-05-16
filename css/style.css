@@ -255,6 +255,8 @@ header{
 .testimonial-container .client-details img{
 	border-radius: 50%;
 	margin-bottom: 25px;
+  max-width: 16%;
+  box-shadow: 0 0 10px #eee;
 }
 .testimonial-container .client-details .dot{
   border-radius: 50%;
@@ -659,6 +661,9 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	.logo-colored img, .logo-white img{
 		max-height: 40px;
 	}
+  .testimonial-container .client-details img{
+    max-width: 30%;
+  }
 }
 @media screen and (max-width: 991px) {
   .bg-image-fit-50{
